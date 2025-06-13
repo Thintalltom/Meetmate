@@ -1,0 +1,27 @@
+{
+  "name": "learnbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@azure/msal-node": "^3.6.0",
+    "axios": "^1.9.0",
+    "botbuilder": "^4.17.0-blobs1",
+    "dotenv": "^16.5.0",
+    "restify": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "@types/restify": "^8.5.12",
+    "ts-node": "^10.9.2",
+    "typescript": "5.2"
+  }
+}
